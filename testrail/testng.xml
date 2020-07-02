@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="jira_zephyr_suite_03Parallel test runs" parallel="tests"
+       thread-count="1">
+      <!--  <parameter name="jobName" value="jira_zephyr_suite_03"></parameter>
+       <parameter name="jobId" value="job-16e241b0-8afc-40b6-9ad4-a10ee71e7779"></parameter>
+       <parameter name="projectId" value="proj-3ac0116a-e93a-437f-9fed-8e8228875b1b"></parameter>
+       <parameter name="buildToolId" value="3"></parameter> -->
+      <!--  <listeners>
+             <listener class-name="com.tep.listener.TestListener" />
+             <listener class-name="com.tep.listener.SuiteListener" />
+       </listeners> -->
+       <test name="jira_zephyr_suite_03">
+             <classes>
+                    <class name="masterslavephysical.gridconsole.AccountsPage" />
+             </classes>
+       </test>
+</suite>
